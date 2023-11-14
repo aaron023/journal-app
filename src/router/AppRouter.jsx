@@ -28,7 +28,7 @@ export const AppRouter = () => {
         } else {
             return [
                 {
-                    path: "/auth/*",    
+                    path: "/auth/*",      
                     children: AuthRoutes
                 }
             ];            
